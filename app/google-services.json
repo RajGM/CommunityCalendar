@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "947484964607",
+    "project_id": "communitycalendar-dd2f2",
+    "storage_bucket": "communitycalendar-dd2f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947484964607:android:743a320c048bc21c487eca",
+        "android_client_info": {
+          "package_name": "com.rajgm.communitycalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947484964607-42t60b2q4e88d9drbik9e42gg7oqncor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHP15EVuynWrcBAUnVRWA_zUz8RpcQ-Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947484964607-42t60b2q4e88d9drbik9e42gg7oqncor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

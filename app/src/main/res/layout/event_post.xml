@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/applicationRunwayStartDate"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/eventImage"
+        app:layout_constraintTop_toBottomOf="@+id/eventRunwayDateTitle" />
+
+    <EditText
+        android:id="@+id/applicationRunwayEndDate"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toEndOf="@+id/applicationRunwayStartDate"
+        app:layout_constraintTop_toBottomOf="@+id/eventRunwayDateTitle" />
+
+    <TextView
+        android:id="@+id/eventRunwayDateTitle"
+        android:layout_width="126dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="76dp"
+        android:text="Event Date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/eventImage"
+        app:layout_constraintTop_toBottomOf="@+id/eventTitle" />
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="169dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="199dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/eventTitle"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eventImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eventApplicationDateTitle"
+        android:layout_width="126dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="8dp"
+        android:text="Application Date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/eventImage"
+        app:layout_constraintTop_toBottomOf="@+id/eventTitle" />
+
+    <EditText
+        android:id="@+id/applicationEndDate"
+        android:layout_width="96dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toEndOf="@+id/applicationStartDate"
+        app:layout_constraintTop_toBottomOf="@+id/eventApplicationDateTitle" />
+
+    <EditText
+        android:id="@+id/applicationStartDate"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/eventImage"
+        app:layout_constraintTop_toBottomOf="@+id/eventApplicationDateTitle" />
+
+    <Button
+        android:id="@+id/allInfoCorrectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="10dp"
+        android:text="@string/correctInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventImage" />
+
+    <Button
+        android:id="@+id/suggestEditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/suggestEdit"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/reportSpamButton"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toEndOf="@+id/allInfoCorrectButton"
+        app:layout_constraintTop_toBottomOf="@+id/applicationRunwayStartDate" />
+
+    <Button
+        android:id="@+id/reportSpamButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/spam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applicationRunwayEndDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

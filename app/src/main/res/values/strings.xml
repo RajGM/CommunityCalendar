@@ -4,5 +4,8 @@
     <string name="logIn">Login</string>
     <string name="signUp">SignUp</string>
     <string name="appMoto">Calendar built by the community for the community </string>
-
+    <string name="eventTitle">Event Title</string>
+    <string name="correctInfo">✓ Info Correct</string>
+    <string name="suggestEdit">⚙ Need Correction</string>
+    <string name="spam">!SPAM</string>
 </resources>

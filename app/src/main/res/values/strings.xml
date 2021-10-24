@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CommunityCalendar</string>
+    <string name="home_img_description">Home Page Image</string>
+    <string name="logIn">Login</string>
+    <string name="signUp">SignUp</string>
+    <string name="appMoto">Calendar built by the community for the community </string>
+
+</resources>
